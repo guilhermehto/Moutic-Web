@@ -1,0 +1,75 @@
+---------- Date: 2017-02-07 12:19:13 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/admin/index.php?route=marketing/marketing&token=AhLb02PopW6VEmMykjuENnPmlQOnMgSM
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-07 12:19:18 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/admin/index.php?route=marketing/affiliate/add&token=AhLb02PopW6VEmMykjuENnPmlQOnMgSM
+MOD DETAILS:
+   modFile   : C:\wamp64\www\moutic-25\vqmod/xml/adicionar_festa_a_promoter.xml
+   id        : Adicionar festa a promoter
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Guilherme Oliveira
+
+File Name    : admin/view/template/marketing/affiliate_form.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): name="quantity"
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-07 12:21:06 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/admin/index.php?route=marketing/affiliate/add&token=AhLb02PopW6VEmMykjuENnPmlQOnMgSM
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-07 12:21:38 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/admin/index.php?route=marketing/affiliate/add&token=AhLb02PopW6VEmMykjuENnPmlQOnMgSM
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+MOD DETAILS:
+   modFile   : C:\wamp64\www\moutic-25\vqmod/xml/adicionar_festa_a_promoter.xml
+   id        : Adicionar festa a promoter
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Guilherme Oliveira
+
+File Name    : admin/view/template/marketing/affiliate_form.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <div class="text-danger"><?php echo $error_zone; ?></div>
+                    <?php } ?>
+                  </div>
+                </div>
+              </fieldset>
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-07 12:22:20 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/admin/index.php?route=marketing/affiliate/add&token=AhLb02PopW6VEmMykjuENnPmlQOnMgSM
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-07 12:23:19 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/admin/index.php?route=marketing/affiliate/add&token=AhLb02PopW6VEmMykjuENnPmlQOnMgSM
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-07 12:44:37 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/admin/index.php?route=marketing/affiliate/add&token=AhLb02PopW6VEmMykjuENnPmlQOnMgSM
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+MOD DETAILS:
+   modFile   : C:\wamp64\www\moutic-25\vqmod/xml/adicionar_festa_a_promoter.xml
+   id        : Adicionar festa a promoter
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Guilherme Oliveira
+
+File Name    : admin/view/template/marketing/affiliate_form.tpl(0)
+VQModObject::applyMod - EMPTY SEARCH CONTENT ERROR
+
+File Name    : admin/view/template/marketing/affiliate_form.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): 
+----------------------------------------------------------------------
+
+

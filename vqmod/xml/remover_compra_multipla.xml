@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Example of the vQmod</id>
+    <version>1.0</version>
+    <vqmver>2.X</vqmver>
+    <author>Tuts+</author>
+    <file name="catalog/view/theme/default/template/product/product.tpl">
+        <operation info="Remover opcao de comprar mais de um ingresso por vez do produto">
+            <search position="replace"><![CDATA[
+           name="quantity"
+           ]]></search>
+            <add><![CDATA[
+           name="quantity" readonly
+           ]]></add>
+        </operation>
+    </file>
+
+    <file name="catalog/view/theme/default/template/checkout/cart.tpl">
+        <operation info="Remover opcao de comprar mais de um ingresso por vez do checkout">
+            <search position="replace"><![CDATA[
+           <input type="text" name="quantity[<?php echo $product['cart_id']; ?>]"
+           ]]></search>
+            <add><![CDATA[
+           <input type="text" readonly name="quantity[<?php echo $product['cart_id']; ?>]"
+           ]]></add>
+        </operation>
+        <operation info="Remover botao de update">
+            <search position="replace"><![CDATA[
+           <button type="submit" data-toggle="tooltip" title="<?php echo $button_update; ?>" class="btn btn-primary"><i class="fa fa-refresh"></i></button>
+           ]]></search>
+            <add><![CDATA[
+           ]]></add>
+        </operation>
+    </file>
+</modification>

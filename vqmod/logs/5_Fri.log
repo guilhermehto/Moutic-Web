@@ -1,0 +1,119 @@
+---------- Date: 2017-02-03 18:57:03 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=account/promoters
+MOD DETAILS:
+   modFile   : C:\wamp64\www\moutic-25\vqmod/xml/remover_compra_multipla.xml
+   id        : Example of the vQmod
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Tuts+
+VQModObject::parseMods - Could not resolve path for [targetfile.php] (SKIPPED)
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-03 19:00:17 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=product/product&product_id=50&search=festa
+MOD DETAILS:
+   modFile   : C:\wamp64\www\moutic-25\vqmod/xml/remover_compra_multipla.xml
+   id        : Example of the vQmod
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Tuts+
+
+File Name    : catalog/view/theme/default/template/product/product.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <input type="text" name="quantity" value="1" size="2" id="input-quantity" class="form-control">
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-03 19:03:40 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=common/home
+MOD DETAILS:
+   modFile   : C:\wamp64\www\moutic-25\vqmod/xml/vqmod_homepage.xml
+   id        : Replace the css property in heading title in Home page
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Tuts+
+
+File Name    : catalog/view/theme/default/template/common/home.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1 style="display: none;">
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-03 19:04:05 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=common/home
+MOD DETAILS:
+   modFile   : C:\wamp64\www\moutic-25\vqmod/xml/vqmod_homepage.xml
+   id        : Replace the css property in heading title in Home page
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Tuts+
+
+File Name    : catalog/view/theme/default/template/common/home.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <h1 style="display: none;">
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-03 19:07:36 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=common/home
+MOD DETAILS:
+   modFile   : C:\wamp64\www\moutic-25\vqmod/xml/vqmod_homepage.xml
+   id        : Replace the css property in heading title in Home page
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Tuts+
+
+File Name    : catalog/view/theme/default/template/common/home.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): Desktops
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-03 19:09:50 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=common/home
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-03 19:11:45 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=product/product&product_id=43
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-03 19:12:31 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=product/product&product_id=43
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-03 19:13:11 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=product/product&product_id=43
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-03 19:34:06 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=checkout/cart/add
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-03 19:37:57 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=checkout/cart
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-03 19:40:13 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=checkout/cart
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-03 19:41:07 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=checkout/cart/remove
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+

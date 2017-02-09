@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Remover Div Seller</id>
+    <version>1.0</version>
+    <vqmver>2.X</vqmver>
+    <author>Guilherme Oliveira</author>
+    <file name="catalog/view/theme/default/template/account/account.tpl">
+        <operation info="Remove o div de seller do .tpl do módulo">
+            <search position="after"><![CDATA[
+           <?php echo $footer; ?>
+           ]]></search>
+            <add><![CDATA[
+            <script>
+                $(document).ready(function(){
+                    $(".well").hide();
+                });
+            </script>
+           ]]></add>
+        </operation>
+    </file>
+
+</modification>

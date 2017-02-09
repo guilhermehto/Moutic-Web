@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+    <id>Adicionar festa a promoter</id>
+    <version>1.0</version>
+    <vqmver>2.X</vqmver>
+    <author>Guilherme Oliveira</author>
+    <file name="admin/view/template/marketing/affiliate_form.tpl">
+        <operation info="Adiciona o campo de seleção de festas">
+            <search position="after"><![CDATA[
+
+           ]]></search>
+            <add><![CDATA[
+
+           ]]></add>
+        </operation>
+    </file>
+</modification>

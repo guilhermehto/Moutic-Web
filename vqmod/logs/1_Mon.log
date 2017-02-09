@@ -1,0 +1,49 @@
+---------- Date: 2017-02-06 18:34:23 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=account/account
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-06 18:35:14 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=account/account
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-06 18:37:33 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=account/account
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-06 18:38:07 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=account/account
+MOD DETAILS:
+   modFile   : C:\wamp64\www\moutic-25\vqmod/xml/remover_div_seller.xml
+   id        : Example of the vQmod
+   version   : 1.0
+   vqmver    : 2.X
+   author    : Tuts+
+VQModObject::parseMods - Could not resolve path for [C:\wamp64\www\moutic-25\system\storage\modification\catalog\view\theme\default\template\account\account.tpl] (SKIPPED)
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-06 18:38:25 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=product/category&path=20_27
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-06 18:39:08 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=account/account
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
+---------- Date: 2017-02-06 18:40:13 ~ IP : ::1 ----------
+REQUEST URI : /moutic-25/index.php?route=account/account
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in file:/C:/wamp64/www/moutic-25/vqmod/xml/vqmod_homepage.xml, line: 1
+----------------------------------------------------------------------
+
+
