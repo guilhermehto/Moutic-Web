@@ -19,11 +19,14 @@ class ControllerApiLogin extends Controller {
 			foreach ($results as $result) {
 				$ip_data[] = trim($result['ip']);
 			}
-	
+
+			//Removi a parada de validação de IP pq se não vai ser uma missão adicionar os ips de todas
+            //as casas de festa.
+            /*
 			if (!in_array($this->request->server['REMOTE_ADDR'], $ip_data)) {
 				$json['error']['ip'] = sprintf($this->language->get('error_ip'), $this->request->server['REMOTE_ADDR']);
 			}				
-				
+			*/
 			if (!$json) {
 				$json['success'] = $this->language->get('text_success');
 			

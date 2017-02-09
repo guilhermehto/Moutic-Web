@@ -179,6 +179,12 @@ class ModelorderOrder extends Model
         }
     }
 
+    public function updateIngressoUtilizado($order_id, $order_product_id){
+        $sql = "UPDATE `oc_order_product` SET `utilizado` = 1 
+                WHERE order_id = $order_id AND order_product_id=$order_product_id";
+        $this->db->query($sql);
+    }
+
     public function getOrders($data = array())
     {
         $sql = "

@@ -12,12 +12,26 @@ class ModelModuleMoutic extends Model {
             error_log("Exception: $e");
         }
 
+        //Campo da senha de acesso utilizada na API
+        try {
+            $this->db->query("
+            ALTER TABLE " . DB_PREFIX . "customer 
+            ADD COLUMN senha_festa VARCHAR(250) DEFAULT NULL
+            ");
+        } catch (Exception $e){
+            error_log("Exception: $e");
+        }
     }
 
     public function deleteSchema() {
         $this->db->query("
             ALTER TABLE " . DB_PREFIX . "affiliate
             DROP COLUMN festa_id int(11) DEFAULT NULL
+            ");
+
+        $this->db->query("
+            ALTER TABLE " . DB_PREFIX . "customer
+            DROP COLUMN senha_festa VARCHAR(250) DEFAULT NULL
             ");
     }
 }
