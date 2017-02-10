@@ -175,4 +175,9 @@ class ModelAccountCustomer extends Model {
 	public function deleteLoginAttempts($email) {
 		$this->db->query("DELETE FROM `" . DB_PREFIX . "customer_login` WHERE email = '" . $this->db->escape(utf8_strtolower($email)) . "'");
 	}
+
+    public function editSenhaAcesso($senha, $id) {
+	    $senha_encrypt = hash('ripemd160', $senha);
+        $this->db->query("UPDATE " . DB_PREFIX . "customer SET senha_festa = '" . $senha_encrypt . "' WHERE customer_id = $id");
+    }
 }

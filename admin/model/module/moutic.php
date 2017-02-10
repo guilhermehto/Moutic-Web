@@ -21,6 +21,16 @@ class ModelModuleMoutic extends Model {
         } catch (Exception $e){
             error_log("Exception: $e");
         }
+
+        //Campo do QrCode do usuario
+        try {
+            $this->db->query("
+            ALTER TABLE " . DB_PREFIX . "customer 
+            ADD COLUMN qrcode VARCHAR(250) DEFAULT NULL
+            ");
+        } catch (Exception $e){
+            error_log("Exception: $e");
+        }
     }
 
     public function deleteSchema() {
@@ -32,6 +42,11 @@ class ModelModuleMoutic extends Model {
         $this->db->query("
             ALTER TABLE " . DB_PREFIX . "customer
             DROP COLUMN senha_festa VARCHAR(250) DEFAULT NULL
+            ");
+
+        $this->db->query("
+            ALTER TABLE " . DB_PREFIX . "customer
+            DROP COLUMN qrcode VARCHAR(250) DEFAULT NULL
             ");
     }
 }

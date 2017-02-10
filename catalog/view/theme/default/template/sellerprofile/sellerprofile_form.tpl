@@ -90,6 +90,12 @@
               </a>
             </li>
 
+            <li>
+              <a href="#tab-senha" data-toggle="tab">
+                Senha de Acesso
+              </a>
+            </li>
+
           </ul>
           <div class="tab-content">
             <?php if ($is_seller) { ?>
@@ -408,6 +414,25 @@
                 </button>
               </div>
               <div id="history"></div>
+              <br />
+
+            </div>
+
+            <div class="tab-pane" id="tab-senha">
+              <div class="text-right">
+
+              </div>
+              <div id="div-senha"></div>
+              <p>Essa senha é utilizada pelos seus funcionários para conseguirem escanear ingressos pelo aplicativo.</p>
+              <form class="form-inline" id="form-senha">
+                <div class="form-group">
+                  <label for="input-senha">Senha: </label>
+                  <input type="password" name="input-senha" id="input-senha" class="form-control"/>
+                </div>
+                <button id="button-senha" type="button" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary"><i class="fa fa-refresh"></i>
+                  Atualizar senha
+                </button>
+              </form>
               <br />
 
             </div>
@@ -937,6 +962,42 @@
       });
       //-->
     </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+       $('#button-senha').click(function() {
+           $.ajax({
+               url: 'index.php?route=module/moutic/senha&seller_id=<?php echo $seller_id; ?>',
+               dataType: 'json',
+               method: 'POST',
+               data: $('#form-senha').serialize(),
+               beforeSend: function() {
+                   $('#button-senha').button('loading');
+               },
+               complete: function() {
+                   $('#button-senha').button('reset');
+               },
+               success: function(json) {
+                   $('.alert').remove();
+                   if (json['success']) {
+                       alert(json['success']);
+                       $('#input-senha').val('');
+                       $('#button-senha').addClass('btn-success');
+                       $('#button-senha').removeClass('btn-primary');
+                   }
+
+                   if (json['error']) {
+                       $('#content > .container-fluid').prepend('<div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> ' + json['error'] + '</div>');
+                   }
+
+               },
+               error: function(xhr, ajaxOptions, thrownError) {
+                   alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+                   alert("Algo deu errado, por favor, tente novamente mais tarde.");
+               }
+           });
+       });
+    });
+  </script>
   </div>
 </div>
 <?php echo $footer; ?>
