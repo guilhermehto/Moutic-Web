@@ -4,6 +4,8 @@ class ControllerCommonHeader extends Controller {
 		// Analytics
 		$this->load->model('extension/extension');
 
+        $this->document->addScript('assets/js/davidshimjs-qrcodejs/qrcode.js');
+
 		$data['analytics'] = array();
 
 		$analytics = $this->model_extension_extension->getExtensions('analytics');

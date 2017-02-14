@@ -50,9 +50,11 @@ class ControllerAccountAccount extends Controller {
 		$data['text_recurring'] = $this->language->get('text_recurring');
         $data['text_meus_ingressos'] = "Meus Ingressos";
         $data['text_promoters'] = "Promoters";
+        $data['text_qrcode'] = "Meu Código";
 
 		$data['promoters'] = $this->url->link('account/promoters', '', true);
 		$data['ingressos'] = $this->url->link('account/ingressos', '', true);
+		$data['qrcode'] = $this->url->link('account/qrcode', '', true);
 		$data['password'] = $this->url->link('account/password', '', true);
 		$data['address'] = $this->url->link('account/address', '', true);
 		

@@ -405,3 +405,12 @@ admin\controller\setting\store.php
 admin\language\en-gb\setting\store.php
 admin\view\template\setting\store_list.tpl
 catalog\controller\module\moutic.php
+catalog\controller\account\register.php
+catalog\language\en-gb\account\register.php
+catalog\view\theme\default\template\account\register.tpl
+catalog\language\en-gb\mail\customer.php
+catalog\controller\account\success.php
+catalog\language\en-gb\account\success.php
+catalog\controller\account\qrcode.php
+catalog\language\en-gb\account\edit.php
+catalog\view\theme\default\template\account\qrcode.tpl

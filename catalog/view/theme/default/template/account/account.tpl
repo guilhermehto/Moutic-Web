@@ -37,6 +37,8 @@
         <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
         <li><a href="<?php echo $download; ?>"><?php echo $text_download; ?></a></li>
         <li><a href="<?php echo $ingressos; ?>"><?php echo $text_meus_ingressos; ?></a></li>
+        <li><a href="#">Se fuder</a></li>
+        <li><a href="<?php echo $qrcode; ?>"><?php echo $text_qrcode; ?></a></li>
         <li><a href="<?php echo $promoters; ?>"><?php echo $text_promoters; ?></a></li>
         <?php if ($reward) { ?>
         <li><a href="<?php echo $reward; ?>"><?php echo $text_reward; ?></a></li>

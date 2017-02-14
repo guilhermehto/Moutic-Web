@@ -180,4 +180,12 @@ class ModelAccountCustomer extends Model {
 	    $senha_encrypt = hash('ripemd160', $senha);
         $this->db->query("UPDATE " . DB_PREFIX . "customer SET senha_festa = '" . $senha_encrypt . "' WHERE customer_id = $id");
     }
+
+    public function gerarQrCode($id){
+	    $usuario = $this->getCustomer($id);
+
+        $qrCode = md5($usuario['email'] . $usuario['password']);
+
+        $this->db->query("UPDATE " . DB_PREFIX . "customer SET qrcode ='$qrCode' WHERE customer_id = $id");
+    }
 }
